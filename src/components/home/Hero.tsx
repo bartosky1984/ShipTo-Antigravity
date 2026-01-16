@@ -5,26 +5,26 @@ export function Hero() {
     return (
         <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden bg-slate-50">
             {/* Background Image with Overlay */}
-            <div className="absolute inset-x-0 top-0 bottom-0 md:left-1/2 z-0 overflow-hidden">
+            <div className="absolute inset-0 z-0 overflow-hidden">
                 <div
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-1000"
-                    style={{ backgroundImage: 'url("/hero_delivery_1768578052827.png")' }}
+                    className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
+                    style={{ backgroundImage: 'url("/hero-bg.png")' }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-50 via-slate-50/80 to-transparent hidden md:block" />
-                <div className="absolute inset-0 bg-white/60 md:hidden" />
+                <div className="absolute inset-0 bg-slate-900/40 backdrop-blur-[2px]" />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-50 via-transparent to-transparent" />
             </div>
 
-            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-                <div className="max-w-2xl text-center md:text-left">
-                    <span className="inline-flex items-center px-3 py-1 rounded-full bg-indigo-50 text-indigo-600 text-[11px] font-bold tracking-widest mb-6 border border-indigo-100">
+            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+                <div className="max-w-3xl mx-auto">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-100 text-[11px] font-bold tracking-widest mb-6 border border-indigo-400/30 backdrop-blur-md">
                         SIMPLE & SEGURO
                     </span>
-                    <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900 mb-6 leading-[1.1]">
+                    <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.1]">
                         Envíos hechos <br />
-                        <span className="text-indigo-600 italic">simples</span>
+                        <span className="text-indigo-400 italic">simples</span>
                     </h1>
 
-                    <p className="text-[17px] text-slate-500 max-w-lg mb-10 leading-relaxed font-medium">
+                    <p className="text-lg md:text-xl text-slate-100 max-w-lg mx-auto mb-10 leading-relaxed font-medium opacity-90">
                         Ya sea que muevas un sofá o un auto, conecta con miles de transportistas verificados al instante y ahorra hasta un 75%.
                     </p>
 
