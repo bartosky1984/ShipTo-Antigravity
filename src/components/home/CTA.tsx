@@ -13,7 +13,7 @@ export function CTA() {
                         ¿Listo para ahorrar en tu envío?
                     </h2>
                     <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto relative z-10">
-                        Únete a miles de clientes que ya han ahorrado dinero usando la tecnología avanzada de Shipto.
+                        Únete a miles de clientes que ya han ahorrado dinero usando la tecnología avanzada de ShipBridge International.
                     </p>
 
                     <div className="max-w-md mx-auto flex flex-col sm:flex-row gap-4 relative z-10">

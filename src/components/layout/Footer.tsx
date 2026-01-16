@@ -11,7 +11,10 @@ export function Footer() {
                             <div className="bg-blue-600 p-1.5 rounded-lg">
                                 <Package2 className="w-5 h-5 text-white" />
                             </div>
-                            <span className="text-xl font-bold text-gray-900">Shipto</span>
+                            <div className="flex flex-col leading-none">
+                                <span className="text-xl font-bold text-gray-900">ShipBridge</span>
+                                <span className="text-[10px] uppercase tracking-wider font-semibold text-blue-600">International</span>
+                            </div>
                         </Link>
                         <p className="text-sm text-gray-500 mb-6">
                             La forma más inteligente de enviar cualquier cosa, a cualquier lugar. Ahorra tiempo y dinero con nuestra red de transportistas verificados.
@@ -49,7 +52,7 @@ export function Footer() {
                 </div>
 
                 <div className="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-sm text-gray-500">© 2026 Shipto. Todos los derechos reservados.</p>
+                    <p className="text-sm text-gray-500">© 2026 ShipBridge International. Todos los derechos reservados.</p>
                     <div className="flex items-center gap-6">
                         <Link href="#" className="text-gray-400 hover:text-blue-600"><Facebook className="w-5 h-5" /></Link>
                         <Link href="#" className="text-gray-400 hover:text-blue-600"><Twitter className="w-5 h-5" /></Link>

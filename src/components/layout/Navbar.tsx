@@ -33,7 +33,10 @@ export function Navbar() {
                             <div className="bg-blue-600 p-1.5 rounded-lg">
                                 <Package2 className="w-5 h-5 text-white" />
                             </div>
-                            <span className="text-xl font-bold text-gray-900">Shipto</span>
+                            <div className="flex flex-col leading-none">
+                                <span className="text-xl font-bold text-gray-900">ShipBridge</span>
+                                <span className="text-[10px] uppercase tracking-wider font-semibold text-blue-600">International</span>
+                            </div>
                         </Link>
                     </div>
 

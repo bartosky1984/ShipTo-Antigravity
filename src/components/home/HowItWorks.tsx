@@ -25,7 +25,7 @@ export function HowItWorks() {
     return (
         <section id="how-it-works" className="py-24 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">Cómo Funciona Shipto</h2>
+                <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">Cómo Funciona ShipBridge International</h2>
                 <p className="text-lg text-gray-500 mb-16">Sencillo, rápido y seguro. Emparejamiento de envíos en tres pasos.</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">

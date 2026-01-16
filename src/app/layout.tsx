@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shipto | Envía lo que quieras, a donde quieras. Por menos.",
+  title: "ShipBridge International | Envía lo que quieras, a donde quieras. Por menos.",
   description: "Conecta con miles de transportistas calificados y ahorra hasta un 75% en costos de envío.",
 };
 
