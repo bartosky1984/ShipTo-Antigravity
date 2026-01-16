@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils'
 const steps = [
     {
         icon: ClipboardList,
-        title: "Pasifica tu envío (gratis)",
+        title: "Publica tu envío (gratis)",
         description: "Dinos qué necesitas mover y a dónde debe ir. Toma menos de un minuto y nos ayuda a emparejarte con los expertos adecuados.",
         image: "/step1_laptop_post_delivery_1768578067252.png",
         step: "PASO 1"
