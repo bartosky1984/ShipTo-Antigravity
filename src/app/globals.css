@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #0066FF;
+  --primary-hover: #0052CC;
+  --secondary: #6B7280;
+  --background: #FFFFFF;
+  --foreground: #111827;
+  --card: #F9FAFB;
+  --border: #E5E7EB;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+}
+
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 100%);
+}
