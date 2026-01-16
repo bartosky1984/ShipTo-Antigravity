@@ -1,3 +1,5 @@
+"use client";
+
 import { ClipboardList, RefreshCw, CheckCircle2, ChevronDown, ShieldCheck, Award, TrendingDown } from 'lucide-react'
 import { useState } from 'react'
 import { Button } from '@/components/ui/Button'
