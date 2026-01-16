@@ -14,10 +14,10 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         const Comp = asChild ? Slot : "button"
 
         const variants = {
-            primary: "bg-blue-600 text-white hover:bg-blue-700 shadow-sm",
-            outline: "border border-gray-200 bg-transparent hover:bg-gray-50 text-gray-700",
-            secondary: "bg-blue-50 text-blue-700 hover:bg-blue-100",
-            ghost: "hover:bg-gray-100 text-gray-600",
+            primary: "bg-indigo-600 text-white hover:bg-indigo-700 shadow-sm shadow-indigo-200/50",
+            outline: "border border-slate-200 bg-transparent hover:bg-slate-50 text-slate-700",
+            secondary: "bg-indigo-50 text-indigo-700 hover:bg-indigo-100",
+            ghost: "hover:bg-slate-100 text-slate-600",
         }
 
         const sizes = {
@@ -30,7 +30,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         return (
             <Comp
                 className={cn(
-                    "inline-flex items-center justify-center rounded-xl font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 disabled:pointer-events-none disabled:opacity-50 active:scale-95",
+                    "inline-flex items-center justify-center rounded-2xl font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 disabled:pointer-events-none disabled:opacity-50 active:scale-95",
                     variants[variant],
                     sizes[size],
                     className

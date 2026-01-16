@@ -1,28 +1,45 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #0066FF;
-  --primary-hover: #0052CC;
-  --secondary: #6B7280;
+  --primary: #4F46E5;
+  /* Indigo 600 */
+  --primary-hover: #4338CA;
+  /* Indigo 700 */
+  --accent: #10B981;
+  /* Emerald 500 */
+  --accent-hover: #059669;
+  /* Emerald 600 */
+  --secondary: #64748B;
+  /* Slate 500 */
   --background: #FFFFFF;
-  --foreground: #111827;
-  --card: #F9FAFB;
-  --border: #E5E7EB;
+  --foreground: #0F172A;
+  /* Slate 900 */
+  --card: #F8FAFC;
+  /* Slate 50 */
+  --border: #F1F5F9;
+  /* Slate 100 */
 }
 
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  /* Slightly smaller overall */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.02em;
 }
 
 .glass-morphism {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.hero-gradient {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 100%);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(241, 245, 249, 0.5);
 }
