@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/Button'
-import { Search, MapPin, Truck, Star, ShieldCheck, ArrowRight } from 'lucide-react'
+import { Search, MapPin, Package, Star, ShieldCheck, ArrowRight } from 'lucide-react'
 
 export function Hero() {
     return (
@@ -8,10 +8,10 @@ export function Hero() {
             <div
                 className="absolute inset-0 z-0 bg-cover bg-center transition-transform duration-1000"
                 style={{
-                    backgroundImage: 'url("https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80")',
+                    backgroundImage: 'url("/hero-bg.png")',
                 }}
             >
-                <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]" />
+                <div className="absolute inset-0 bg-blue-900/40 backdrop-blur-[1px]" />
             </div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
@@ -28,7 +28,7 @@ export function Hero() {
                 <div className="max-w-4xl mx-auto bg-white rounded-2xl md:rounded-3xl p-4 md:p-6 shadow-2xl animate-fade-in-up delay-200">
                     <div className="flex flex-col md:flex-row gap-4">
                         <div className="flex-1 relative group">
-                            <Truck className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-blue-600 transition-colors w-5 h-5" />
+                            <Package className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-blue-600 transition-colors w-5 h-5" />
                             <input
                                 type="text"
                                 placeholder="¿Qué quieres enviar?"

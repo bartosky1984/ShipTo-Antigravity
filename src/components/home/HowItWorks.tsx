@@ -1,14 +1,14 @@
-import { Truck, Euro, CheckCircle2 } from 'lucide-react'
+import { ClipboardList, RefreshCw, CheckCircle2 } from 'lucide-react'
 
 const steps = [
     {
-        icon: Truck,
+        icon: ClipboardList,
         title: "1. Publica tu envío",
         description: "Dinos qué necesitas mover y a dónde debe ir usando nuestro sencillo formulario.",
         color: "blue"
     },
     {
-        icon: Euro,
+        icon: RefreshCw,
         title: "2. Recibe presupuestos",
         description: "Recibe ofertas competitivas de transportistas calificados en minutos por email.",
         color: "blue"
